@@ -1,0 +1,585 @@
+.time-display-container {
+    font-size: 14px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    gap: 1px !important;
+    margin-top: 1% !important;
+    margin-left: 0.5em !important;
+    align-items: center !important;
+    /* display: none !important; */
+    /* display: inline-block !important; */
+    top: -3.7em !important;
+    position: relative;
+}
+
+
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+    left: 2rem !important;
+    position: absolute;
+}
+
+.video-js .vjs-play-progress:before {
+    font-size: 2em;
+    position: absolute;
+    right: -0.5em;
+    top: 0 !important; 
+    z-index: 1;
+    /* background: #2196f3 !important; */
+}
+
+.vjs-slider-horizontal .vjs-volume-level:before {
+    top: 0 !important;
+    right: -0.5em;
+}
+
+
+.video-js .vjs-time-control {
+    flex: none;
+    font-size: 1.2em !important;
+    line-height: 3em;
+    min-width: 0.7em !important;
+    width: auto;
+    padding-left: 0em !important;
+    padding-right: 0.3em !important;
+    display: none !important;
+    top: 1.5em;
+}
+
+button.vjs-resolution-button.vjs-control.vjs-button {
+    display: none !important;
+}
+
+
+@supports (display: grid) {
+    .vjs-text-track-settings .vjs-modal-dialog-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 20px 24px 0px 24px;
+        background: #000 !important;
+        z-index: 11;
+    }
+}
+
+.vjs-text-track-settings legend {
+    color: #fff;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+
+button.vjs-close-button.vjs-control.vjs-button {
+    color: #fff !important;
+}
+
+button.vjs-default-button {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 1px 10px !important;
+}
+
+.vjs-time-control.vjs-time-divider {
+    position: relative !important;
+    top: 1em !important;
+}
+
+button.vjs-done-button {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 1px 10px !important;
+}
+
+.vjs-text-track-settings fieldset span > select {
+    max-width: 7.3em;
+    border: none;
+    background: #ccc;
+    padding: 1px 10px;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    color: #000;
+    border-radius: 2px;
+}
+
+.vjs-track-setting > select {
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    max-width: 7.3em;
+    border: none;
+    background: #ccc !important;
+    padding: 1px 10px;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    color: #000 !important;
+    border-radius: 2px;
+}
+
+.vjs-modal-dialog.vjs-text-track-settings {
+    background-color: #2B333F;
+    background-color: rgba(43, 51, 63, 0.75);
+    color: #fff;
+    height: 100% !important;
+    background: #000 !important;
+    z-index: 20;
+}
+
+
+.vjs-play-progress.vjs-slider-bar {
+    background: #2196f3 !important;
+}
+
+.vjs-slider-horizontal .vjs-volume-level {
+    height: 0.3em;
+    background: #2196f3 !important;
+}
+
+.vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+    background-color: #2B333F;
+    background-color: rgba(43, 51, 63, 0.7);
+    position: absolute;
+    width: 100%;
+    bottom: 1.6em !important;
+    max-height: 15em;
+    background: #000 !important;
+    padding: 5px !important;
+    padding-bottom: 10px !important;
+    border-radius: 10px !important;
+    padding-top: 10px !important;
+}
+
+.vjs-menu .vjs-menu-content > * {
+    box-sizing: border-box;
+    margin-top: 5px !important;
+    font-size: 12px !important;
+}
+
+
+
+
+
+.vjs-icon-play:before, .video-js .vjs-play-control .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+    content: "\f101";
+    /* color: #2196f3 !important; */
+    /* border: 2px solid #fff; */
+    /* border-radius: 50%; */
+    /* height: auto; */
+    /* width: fit-content; */
+    font-size: 1.7rem;
+    justify-content: center;
+    display: grid;
+    display: flex;
+    align-items: center;
+    /* background: #2196f3; */
+    border-radius: 100px;
+    height: 3rem !important;
+    width: 3rem !important;
+    /* margin-left: 10px; */
+    /* margin-top: 1px !important; */
+    font-size: 5em !important;
+}
+
+button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3 {
+    left: 2em !important;
+}
+
+button.vjs-subtitle-button.vjs-control.vjs-button {
+    /* font-size: 1.5em; */
+    font-size: 1.5rem !important;
+    /* line-height: 1.67; */
+    align-items: center !important;
+    display: flex !important;
+    right: -2em !important;
+}
+
+.vjs-button > .vjs-icon-placeholder:before {
+    font-size: 2rem !important;
+    line-height: 1.67;
+    align-items: center !important;
+    display: flex !important;
+}
+
+
+
+.video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
+    transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
+    /* background: #000 !important; */
+    top: 1em !important;
+}
+
+
+/* Ensure the progress control spans full width and appears above controls */
+.video-js .vjs-progress-control {
+    cursor: pointer;
+    flex: auto;
+    display: flex;
+    align-items: center;
+    min-width: 4em;
+    touch-action: none;
+    position: absolute !important; /* Change position to absolute */
+    top: -5px !important; /* Adjust height to place it above the controls */
+    left: 0 !important; /* Start from the very left */
+    width: 100% !important; /* Occupy the full width */
+    z-index: 0 !important; /* Ensure it appears above control elements */
+    height: 8px !important; /* Add some height for better visibility */
+    background: transparent; /* Ensure no background blocks visuals */
+}
+
+.video-js .vjs-volume-panel {
+    display: flex;
+    left: 10em !important;
+    position: absolute !important;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+    .video-js .vjs-volume-panel {
+        display: flex;
+        left: 10em !important;
+        position: absolute !important;
+        display: none !important;
+    }
+
+}
+
+/* Style for the play progress bar */
+.video-js .vjs-progress-control .vjs-play-progress {
+    background: linear-gradient(90deg, #2196f3, #21cbf3) !important;
+    height: 100% !important; /* Match the height of the progress container */
+    border-radius: 4px; /* Rounded corners for a polished look */
+}
+
+/* Ensure the control bar remains behind the progress bar */
+.video-js .vjs-control {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 4em;
+    flex: none;
+    z-index: 5; /* Lower z-index to keep it under progress bar */
+}
+
+/* Optional: Hover effect for progress bar interactivity */
+.video-js .vjs-progress-control:hover {
+    height: 10px; /* Slight increase on hover for better interactivity */
+}
+
+/* Prevent clipping of elements */
+.video-js {
+    overflow: visible !important; /* Ensures progress bar doesn't get clipped */
+}
+
+
+
+
+/* Ensure fullscreen and picture-in-picture buttons are aligned to the right */
+.video-js .vjs-fullscreen-control {
+    margin-left: auto !important;
+    right: -4.5em !important;
+}
+
+/* Hide the picture-in-picture button completely */
+.video-js .vjs-picture-in-picture-control {
+    display: none !important; /* Remove the button from display */
+}
+/* Center the play/pause button in the control bar */
+/* Ensure the play/pause button is centered */
+.video-js .vjs-play-control {
+    position: absolute !important; /* Take the button out of normal flow */
+    left: 50% !important; /* Center horizontally within the control bar */
+    transform: translateX(-50%) !important; /* Adjust for the button's own width */
+}
+
+/* Maintain the default layout for other controls */
+.video-js .vjs-control-bar {
+    display: flex !important;
+    align-items: center !important;
+    height: 3rem !important;
+    background: transparent !important;
+}
+
+
+
+.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+    display: none !important;
+}
+
+
+
+
+.video-js .vjs-big-play-button {
+    display: none !important;
+}
+
+.vjs-current-time.vjs-time-control.vjs-control {
+    display: none !important;
+}
+
+.vjs-duration.vjs-time-control.vjs-control {
+    display: none !important;
+}
+
+.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button.vjs-hidden {
+    display: none !important;
+}
+
+button.vjs-seek-to-live-control.vjs-control {
+    display: none !important;
+}
+
+.vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
+    display: none !important;
+}
+
+.vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button.vjs-hidden {
+    display: none !important;
+    left: -1.5em !important;
+}
+
+.vjs-time-separator {
+    padding-left: 0.2em !important;
+    padding-right: 0.2em !important;
+}
+
+
+.vjs-playback-rate > .vjs-menu-button, .vjs-playback-rate .vjs-playback-rate-value {
+    position: absolute;
+    top: 0.3em !important;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vjs-playback-rate.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+    font-size: 1.3em !important;
+    left: -1.5em !important;
+}
+
+
+
+.playback-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    /* background-color: white; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* padding: 20px; */
+    width: 200px;
+    text-align: center;
+    /* padding: 50px 30px; */
+    height: 30%;
+    overflow: auto;
+    /*display: flex;*/
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center !important; */
+    /* text-align: center; */
+    background: rgba(0, 0, 0, 0.7);
+    /* align-items: center; */
+    /* align-self: center; */
+}
+
+button#close-modal {
+    position: absolute;
+    right: 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+    top: 10px;
+    /* color: #000 !important; */
+    /* font-size: 1.5rem !important; */
+    padding: 5px 20px;
+    border: none;
+    background: #ccc;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.play-back-data {
+    display: inline-block !important;
+}
+
+div#playback-btn-data-rate-container {
+    padding: 10px;
+    overflow: auto;
+}
+
+.playback-rate-adjust-BTN {
+    margin: 5px;
+    padding: 2px 15px;
+    font-size: 1rem !important;
+    border: none;
+    background-color: #007bff00 !important;
+    color: #000 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.playback-rate-adjust-BTN:hover {
+    background-color: #f9f9f9 !important;
+    border: none;
+    outline: none;
+}
+
+.playback-rate-adjust-BTN:focus {
+    background-color: #f9f9f9 !important;
+    border: none;
+    outline: none;
+}
+
+.play-back-data {
+    position: relative;
+    /* background: #fff; */
+    border-radius: 8px;
+    padding: 20px;
+    /* text-align: center; */
+    /* width: 200px; */
+    z-index: 10000;
+    /* height: 50%; */
+    /* left: 50%; */
+    /* top: auto; */
+    width: 100%;
+    /* bottom: 0; */
+    /* overflow: auto; */
+    height: 100%;
+}
+
+div#playback-btn-data-rate-container {
+    overflow: auto;
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    z-index: 10000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.resolution-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Above player but below essential UI components */
+}
+
+.resolution-modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    z-index: 10000; /* Ensure modal content stays on top */
+    height: 60%;
+}
+
+.resolution-options {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.resolution-option {
+    padding: 10px;
+    cursor: pointer;
+    background: #f1f1f1;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+    color: #000 !important;
+    margin-top: 10px;
+}
+
+.resolution-option:hover {
+    background: #ddd;
+}
+
+.close-modal {
+    padding: 10px 20px;
+    border: none;
+    background: #ccc !important;
+    color: #000 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px !important;
+}
+
+.close-modal:hover {
+    background: #555;
+}
+/* Position the resolution button at the bottom-right corner of the control bar */
+.vjs-control-bar .vjs-resolution-control {
+    position: absolute;
+    right: 10px; /* Adjust spacing from the right */
+    bottom: 5px; /* Adjust spacing from the bottom */
+    z-index: 10; /* Ensure it's above other elements */
+}
+
+.vjs-resolution-control .fa {
+    font-size: 2.3em;
+    color: #fff;
+    /* top: 0.7em; */
+    top: 0.5em;
+    position: absolute;
+}
+
+button.vjs-control.vjs-button.vjs-resolution-control {
+    right: 10em;
+    /* align-items: center !important; */
+    top: 0.1em;
+}
+
+button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
+    display: block !important;
+}
